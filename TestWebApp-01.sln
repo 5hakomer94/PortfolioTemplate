@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp-01", "TestWebApp-01\TestWebApp-01.csproj", "{7576E540-7D24-4505-886E-1D4673A77F39}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap1", "Bootstrap1\Bootstrap1.csproj", "{0B0AB5EA-ED20-4DE0-BBDD-C4965945EC53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioTemplate", "Bootstrap1\PortfolioTemplate.csproj", "{0B0AB5EA-ED20-4DE0-BBDD-C4965945EC53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7576E540-7D24-4505-886E-1D4673A77F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7576E540-7D24-4505-886E-1D4673A77F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7576E540-7D24-4505-886E-1D4673A77F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7576E540-7D24-4505-886E-1D4673A77F39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0B0AB5EA-ED20-4DE0-BBDD-C4965945EC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B0AB5EA-ED20-4DE0-BBDD-C4965945EC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B0AB5EA-ED20-4DE0-BBDD-C4965945EC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7A66C76-46D7-41CE-8801-C5C46902B322}
 	EndGlobalSection
 EndGlobal
